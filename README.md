@@ -2,27 +2,32 @@
 
 Verantwoord en presenteer je keuze voor een tech-stack.
 
+![image](https://github.com/user-attachments/assets/85a58afa-c646-4736-8593-24c80e813c93)
+
 ## Inleiding
 
-In deze opdracht onderzocht ik systematisch een nieuwe tech-stack en verantwoord ik deze op basis van UX, DX en CMX. Het doel van deze opdracht was om te leren hoe ik een onderbouwde keuze kan maken voor een passende tech-stack en hoe ik deze bevindingen kan presenteren.
+In deze opdracht onderzocht ik  een nieuwe tech-stack en verantwoord ik deze gebaseerd op UX, DX en CMX. Het doel van deze opdracht was om te leren hoe ik een onderbouwde keuze kan maken voor een passende tech-stack en hoe ik deze bevindingen kan presenteren.
 
-De tech-stack die ik onderzocht mocht bijvoorbeeld bestaan uit frameworks als Astro, React, Angular, Nuxt, Next, of een andere combinatie van front- en backend tools. Het was de bedoeling dat ik iets koos waar ik nog geen ervaring mee had zodat ik kon ontdekken wat de voor- en nadelen zijn van deze stack.
+De tech-stack die ik onderzocht mocht bestaan uit frameworks als Astro, React, Angular, etc. Het was de bedoeling dat ik iets koos waar ik nog geen ervaring mee had zodat ik kon ontdekken wat de voor- en nadelen zijn van deze stack.
 
-Ik heb na een kort onderzoek gekozen voor Enhance. Deze was niet mijn eerste keuze (Astro 👀) maar toen ik in eerste instantie onderzoek deed naar een snel framework die het simpel maakt statische code te renderen, maar ook goed te werk kan gaan met een API kwam ik bij Qwik, maar koos uiteindelijk toch voor Enhance. Na het 
+Ik heb na een kort onderzoek gekozen voor Enhance. Deze was niet mijn eerste keuze (Astro 👀) maar toen ik in eerste instantie onderzoek deed naar een snel framework die het simpel maakt statische code te renderen, maar ook goed te werk kan gaan met een API kwam ik bij Qwik, maar koos uiteindelijk toch voor Enhance.
+
+![image](https://github.com/user-attachments/assets/fe6e81df-e4b6-4c45-a403-be084c5bc872)
 
 Tijdens deze opdracht heb ik de volgende stappen doorlopen:
 
 ## 1. User Experience (UX)
-Ik onderzocht de gebruikerservaring van de gekozen tech-stack. Hierbij keek ik naar aspecten zoals snelheid, toegankelijkheid, en navigatie.
+Ik onderzocht de gebruikerservaring van de gekozen tech-stack. Het was hierbij lastig om iets specifiek aan deze tech stack te vinden buiten performance, het is namelijk aan de developer om goede UX principes toe te passen om de site accessible te maken, maar performance speelt ook een grote rol in UX en kan per tech-stack op de langere termijn toch een verschil maken.
 
-### Snelheid
-Ik keek of het framework ondersteuning biedt voor server-side rendering (SSR), statische sitegeneratie (SSG), of caching om snelle laadtijden te garanderen.
+### Performance
+Om de performance te optimaliseren biedt enhance SSG, dit helpt met:
 
-### Toegankelijkheid
-Ik controleerde of de tech-stack de developer ondersteunde met WCAG-richtlijnen en of er ingebouwde functies waren om te helpen met het bouwen van een site met goede toegankelijkheid voor screen readers en toetsenbordnavigatie.
+**Schaalbaarheid:** Statische delen kunnen gemakkelijk worden gestuurd via een CDN (content delivery network), zonder server-side verwerking.
 
-### Navigatie
-Ik onderzocht of de tech-stack de mogelijkheid bood om gemakkelijk een duidelijke en consistente navigatie te creëren.
+**JAMstack:** Met dynamische elementen zoals de interactieve agenda biedt JAMstack (JavaScript, APIs, en Markup) de voordelen van SSG gecombineerd met de flexibiliteit van API-gedreven inhoud.
+
+![image](https://github.com/user-attachments/assets/eb541f67-6414-40ff-a56d-ad73ce1a4ecc)
+
 
 ## 2. Developer Experience (DX)
 Ik analyseerde de ontwikkelervaring met de tech-stack. Hierbij keek ik naar functionaliteit, gebruiksgemak en ondersteuning.
