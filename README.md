@@ -12,19 +12,34 @@ Ik heb na een kort onderzoek gekozen voor Enhance. Deze was niet mijn eerste keu
 
 Tijdens deze opdracht heb ik de volgende stappen doorlopen:
 
-### 1. User Experience (UX)
+## 1. User Experience (UX)
 Ik onderzocht de gebruikerservaring van de gekozen tech-stack. Hierbij keek ik naar aspecten zoals snelheid, toegankelijkheid, en navigatie.
 
-#### Snelheid
+### Snelheid
+Ik keek of het framework ondersteuning biedt voor server-side rendering (SSR), statische sitegeneratie (SSG), of caching om snelle laadtijden te garanderen.
 
-#### Toegankelijkheid
+### Toegankelijkheid
+Ik controleerde of de tech-stack de developer ondersteunde met WCAG-richtlijnen en of er ingebouwde functies waren om te helpen met het bouwen van een site met goede toegankelijkheid voor screen readers en toetsenbordnavigatie.
 
-#### Navigatie
+### Navigatie
+Ik onderzocht of de tech-stack de mogelijkheid bood om gemakkelijk een duidelijke en consistente navigatie te creëren.
 
-### 2. Developer Experience (DX)
-Analyseer de ontwikkelervaring met de tech-stack. Kijk naar functionaliteit, gebruiksgemak, documentatie en ondersteuning.
+## 2. Developer Experience (DX)
+Ik analyseerde de ontwikkelervaring met de tech-stack. Hierbij keek ik naar functionaliteit, gebruiksgemak en ondersteuning.
 
-### 3. Content Management Experience (CMX)
+### Scalability
+Ik beoordeelde of de tech-stack flexibel genoeg was om nieuwe functies toe te voegen zonder de prestaties negatief te beïnvloeden.
+
+### Maintainability
+Ik onderzocht op wat voor manier de tech-stack componenten ondersteunt en hoe gemakkelijk het was om bestaande functionaliteiten te updaten of aan te passen.
+
+### Ease of use
+Ik bekeek hoe makkelijk de tools en documentatie waren voor mij om het werk van een ander framework over te zetten naar deze.
+
+### Support
+Ik evalueerde de hoeveelheid beschikbare informatie dat ik kon vinden (tutorials, stack overflow, etc.) om te bepalen of de tech-stack goede ondersteuning heeft voor developers.
+
+## 3. Content Management Experience (CMX)
 Evalueer hoe gemakkelijk het is voor contentbeheerders om met de tech-stack te werken. Zijn er specifieke vaardigheden nodig of is het toegankelijk voor een breed publiek?
 
 ### 4. Conclusies
