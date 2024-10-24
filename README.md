@@ -10,7 +10,7 @@ In deze opdracht onderzocht ik  een nieuwe tech-stack en verantwoord ik deze geb
 
 De tech-stack die ik onderzocht mocht bestaan uit frameworks als Astro, React, Angular, etc. Het was de bedoeling dat ik iets koos waar ik nog geen ervaring mee had zodat ik kon ontdekken wat de voor- en nadelen zijn van deze stack.
 
-Ik heb na een kort onderzoek gekozen voor Enhance. Deze was niet mijn eerste keuze (Astro 👀) maar toen ik in eerste instantie onderzoek deed naar een snel framework die het simpel maakt statische code te renderen, maar ook goed te werk kan gaan met een API kwam ik bij Qwik, maar koos uiteindelijk toch voor Enhance.
+Ik heb na een kort onderzoek gekozen voor Enhance. Deze was niet mijn eerste keuze (Astro 👀) maar toen ik in eerste instantie onderzoek deed naar een snel framework die het simpel maakt statische code te renderen, maar ook goed te werk kan gaan met een API kwam ik uit tussen Qwik en Enhance, maar Enhance was uiteindelijk toch het framework waar ik voor ging.
 
 ![image](https://github.com/user-attachments/assets/fe6e81df-e4b6-4c45-a403-be084c5bc872)
 
@@ -20,30 +20,19 @@ Tijdens deze opdracht heb ik de volgende stappen doorlopen:
 Ik onderzocht de gebruikerservaring van de gekozen tech-stack. Het was hierbij lastig om iets specifiek aan deze tech stack te vinden buiten performance, het is namelijk aan de developer om goede UX principes toe te passen om de site accessible te maken, maar performance speelt ook een grote rol in UX en kan per tech-stack op de langere termijn toch een verschil maken.
 
 ### Performance
-Om de performance te optimaliseren biedt enhance SSG, dit helpt met:
+Om de performance te optimaliseren biedt Enhance SSG, dit helpt met:
 
-**Schaalbaarheid:** Statische delen kunnen gemakkelijk worden gestuurd via een CDN (content delivery network), zonder server-side verwerking.
+**Schaalbaarheid:** Statische delen kunnen gemakkelijk worden gestuurd via een CDN (content delivery network), hierdoor wordt de site opgehaald vanuit de dichtsbijzijnde server.
 
-**JAMstack:** Met dynamische elementen zoals de interactieve agenda biedt JAMstack (JavaScript, APIs, en Markup) de voordelen van SSG gecombineerd met de flexibiliteit van API-gedreven inhoud.
+**JAMstack:** Met dynamische elementen zoals de interactieve agenda helpt JAMstack (JavaScript, APIs, en Ma## 2. Developer Experience (DX)
+Ik analyseerde de ontwikkelervaring met Enhance. Hierbij keek ik naar functionaliteit, gebruiksgemak en ondersteuning.
 
-![image](https://github.com/user-attachments/assets/eb541f67-6414-40ff-a56d-ad73ce1a4ecc)
+Scalability
+Enhance is ontworpen met components in het achterhoofd, wat het makkelijker maakt voor het toevoegen van nieuwe functies zonder negatieve invloed op de prestaties. Het framework ondersteunt server-side rendering, wat helpt bij het efficiënt laden van content, ook als de applicatie groeit.
 
-
-## 2. Developer Experience (DX)
-Ik analyseerde de ontwikkelervaring met de tech-stack. Hierbij keek ik naar functionaliteit, gebruiksgemak en ondersteuning.
-
-### Scalability
-Ik beoordeelde of de tech-stack flexibel genoeg was om nieuwe functies toe te voegen zonder de prestaties negatief te beïnvloeden.
-
-### Maintainability
-Ik onderzocht op wat voor manier de tech-stack componenten ondersteunt en hoe gemakkelijk het was om bestaande functionaliteiten te updaten of aan te passen.
-
-### Ease of use
-Ik bekeek hoe makkelijk de tools en documentatie waren voor mij om het werk van een ander framework over te zetten naar deze.
-
-### Support
-Ik evalueerde de hoeveelheid beschikbare informatie dat ik kon vinden (tutorials, stack overflow, etc.) om te bepalen of de tech-stack goede ondersteuning heeft voor developers.
-
+Ease of used
+De tools en documentatie van Enhance zijn ontworpen om het ontwikkelaars zo gemakkelijk mogelijk te maken De minimale configuratie. De leercurve is laag, waardoor het gemakkelijk is om het werk van een ander framework over te zetten naar Enhance.
+  
 ## 3. Content Management Experience (CMX)
 Evalueer hoe gemakkelijk het is voor contentbeheerders om met de tech-stack te werken. Zijn er specifieke vaardigheden nodig of is het toegankelijk voor een breed publiek?
 
