@@ -26,37 +26,44 @@ Om de performance te optimaliseren biedt Enhance SSG, dit helpt met:
 
 **JAMstack:** Met dynamische elementen zoals de interactieve agenda helpt JAMstack (JavaScript, APIs, en Ma## 2. Developer Experience (DX)
 Ik analyseerde de ontwikkelervaring met Enhance. Hierbij keek ik naar functionaliteit, gebruiksgemak en ondersteuning.
+## 2. Developer Experience (DX)
 
-Scalability
+### Scalability
 Enhance is ontworpen met components in het achterhoofd, wat het makkelijker maakt voor het toevoegen van nieuwe functies zonder negatieve invloed op de prestaties. Het framework ondersteunt server-side rendering, wat helpt bij het efficiënt laden van content, ook als de applicatie groeit.
 
-Ease of used
-De tools en documentatie van Enhance zijn ontworpen om het ontwikkelaars zo gemakkelijk mogelijk te maken De minimale configuratie. De leercurve is laag, waardoor het gemakkelijk is om het werk van een ander framework over te zetten naar Enhance.
-  
+### Ease of used
+Hoewel ik om mijn svelte project over te zetten naar enhance niet veel ingewikkelde code hoefde over te zetten, moet ik zeggen dat het erg intuitief was. Enhance maakt gebruik van ``.mjs`` bestanden waarin ik mijn html in een functie moet schrijven en returnen. 
+
+### Support
+Enhance heeft een behulpzame community met een Discord-kanaal en GitHub-repositories. De documentatie is goed gestructureerd, wat helpt bij een soepele ontwikkelervaring, maar van wat ik kon vinden zijn er nog weinig tutorials van te vinden, en het heeft nog niet eens zijn eigen stack overflow tag, dus het is lastig om buiten het discord kanaal en documentatie antwoord op je vragen te krijgen. 
+
+![image](https://github.com/user-attachments/assets/4f15c951-2828-40d2-a984-fe2e6215cde2)
+
+
 ## 3. Content Management Experience (CMX)
-Evalueer hoe gemakkelijk het is voor contentbeheerders om met de tech-stack te werken. Zijn er specifieke vaardigheden nodig of is het toegankelijk voor een breed publiek?
+Enhance geeft een goede ervaring voor contentbeheer, ideaal als contentbeheerders aangezien het gaat over het CMS dat je gebruit, Enhance doet daar niet moeilijk over. 
+
+![image](https://github.com/user-attachments/assets/2c528577-d9a7-49f8-a6ff-ef2c962a9adc)
+
+
+### Integratie met CMS
+Enhance werkt goed met verschillende headless CMS-systemen zoals Strapi en Sanity. Hierdoor kunnen content beheerders eenvoudig via een CMS content invoeren en bewerken.
 
 ### 4. Conclusies
-Vat je bevindingen samen en bepaal onder welke voorwaarden deze tech-stack het beste tot zijn recht komt. Welke eisen stelt het aan gebruikers, ontwikkelaars en content managers?
+Omdat het framework en de content management meerendeels apart gebeurd is het niet nodig voor contentbeheerders om veel kennis te hebben over HTML, CSS en Javascript. Hoewel de code voor het ophalen van data best simpel is, en dus met de hiervoor genoemde basiskennis te begrijpen, is het niet nodig.
 
-### 5. Voor- en nadelen
-Verwerk de belangrijkste inzichten van de voor- en nadelen uit je onderzoek, geschikt voor een publiek van front-enders.
 
 ## Conclusie User Experience (UX)
-
-<!-- Hoe goed presteert de tech-stack op het gebied van snelheid, toegankelijkheid en gebruiksvriendelijkheid voor eindgebruikers? -->
+Enhance presteert uitstekend op het gebied van snelheid dankzij SSR en SSG. Deze technieken zorgen voor snelle laadtijden en een goede gebruikerservaring. Wat toegankelijkheid betreft, biedt Enhance genoeg flexibiliteit (zoals elk framework zou moeten) om best practices voor toegankelijkheid toe te passen, maar het is aan de ontwikkelaar om ervoor te zorgen dat de site ook echt toegankelijk is. 
 
 ## Conclusie Developer Experience (DX)
-
-<!-- Hoe gemakkelijk is de tech-stack te gebruiken voor ontwikkelaars? Wat zijn de voor- en nadelen van de documentatie en beschikbare tools? -->
+Enhance is gebruiksvriendelijk voor ontwikkelaars door zijn intuïtieve structuur. Het maakt gebruik van een eenvoudige syntax wat de leercurve verlaagt. De documentatie is goed gestructureerd en de community is behulpzaam, al hoewel er nog weinig vragen- en antwoorden beschikbaar zijn buiten het Discord-kanaal. 
 
 ## Conclusie Content Management Experience (CMX)
+Enhance biedt een goede ervaring voor contentbeheerders, vooral wanneer het gekoppeld is aan gebruiksvriendelijke headless CMS-systemen zoals Sanity (Werken sinds kort samen). De interface van deze CMS-oplossingen maakt het beheren van content een stuk makkelijker. Voor complexere taken kan enige kennis van HTML, CSS en JavaScript nuttig zijn, maar dit is niet nodig voor de dagelijkse contentbeheer.
 
-<!--Hoe toegankelijk is het systeem voor contentbeheerders en wat zijn mogelijke beperkingen? -->
-
-## Voorwaarden en Aanbevelingen
-
-<!-- Wat moet er technisch en organisatorisch aanwezig zijn om deze tech-stack succesvol in te zetten? -->
+## Aanbevelingen
+Om Enhance succesvol in te zetten, moet er een duidelijke scheiding zijn tussen content en presentatie. Zorg voor een goed gekozen headless CMS dat past bij de behoeften van de contentbeheerders. Het is ook belangrijk om een basiskennis van HTML, CSS en JavaScript te hebben om complexere integraties te kunnen overzien.
 
 ## Licentie
 
