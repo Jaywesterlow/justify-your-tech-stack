@@ -32,7 +32,7 @@ Om de performance te optimaliseren biedt Enhance SSG, dit helpt met:
 ### Scalability
 Enhance is ontworpen met components in het achterhoofd, wat het makkelijker maakt voor het toevoegen van nieuwe functies zonder negatieve invloed op de prestaties. Het framework ondersteunt server-side rendering, wat helpt bij het efficiënt laden van content, ook als de applicatie groeit.
 
-### Ease of used
+### Ease of use
 Hoewel ik om mijn svelte project over te zetten naar enhance niet veel ingewikkelde code hoefde over te zetten, moet ik zeggen dat het erg intuitief was. Enhance maakt gebruik van ``.mjs`` bestanden waarin ik mijn html in een functie moet schrijven en returnen. 
 
 ### Support
