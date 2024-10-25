@@ -24,8 +24,9 @@ Om de performance te optimaliseren biedt Enhance SSG, dit helpt met:
 
 **Schaalbaarheid:** Statische delen kunnen gemakkelijk worden gestuurd via een CDN (content delivery network), hierdoor wordt de site opgehaald vanuit de dichtsbijzijnde server.
 
-**JAMstack:** Met dynamische elementen zoals de interactieve agenda helpt JAMstack (JavaScript, APIs, en Ma## 2. Developer Experience (DX)
-Ik analyseerde de ontwikkelervaring met Enhance. Hierbij keek ik naar functionaliteit, gebruiksgemak en ondersteuning.
+**JAMstack:** Met dynamische elementen zoals de interactieve agenda helpt JAMstack (JavaScript, APIs, en Markup). Dit laat alle dynamische taken over aan Javascript en de api, waardoor het statische gedeelte 
+
+
 ## 2. Developer Experience (DX)
 
 ### Scalability
